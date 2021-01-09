@@ -67,3 +67,22 @@ footer {
 .copyright {
     margin-top: 0.5em;
 }
+
+#pollination {
+    background-color: #ffff0090;
+    text-align: center;
+    margin: 4em;
+    border-radius: 25px;
+}
+
+#pollination p {
+    line-height: 2em;
+    word-spacing: 0.5em;
+    padding: 1em;
+    font-weight: 800;
+}
+
+#playnow {
+    font-size: 2em;
+    color: #008000;
+}
