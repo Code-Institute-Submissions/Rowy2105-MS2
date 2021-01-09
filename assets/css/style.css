@@ -3,10 +3,10 @@ https://fonts.google.com/specimen/Roboto+Mono?query=roboto+m&sidebar.open=true&s
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
 
 * {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  position: relative;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    position: relative;
 }
 
 body {
@@ -14,6 +14,7 @@ body {
     overflow: auto;
     font-family: "Roboto Mono", sans-serif;
     min-height: 100vh;
+    background-image: url("../images/comb.jpg");
 }
 
 header {
@@ -25,36 +26,20 @@ header {
 }
 
 .navbar-custom {
-  box-shadow: 0 5px 5px -1px rgba(0, 0, 0, 0.4);
-}
+    box-shadow: 0 5px 5px -1px rgba(0, 0, 0, 0.4);
+    }
 
 .navbar-brand {
-   font-weight: 500;
-   font-size: 2em;
+    font-weight: 500;
+    font-size: 2em;
+    }
+
+.navbar-light .navbar-nav .nav-link {
+    color: yellow;
 }
 
 .nav-item {
     font-size: 1.5em;
-}
-
-#home .nav-link {
-    color: #ffff00;
-}
-
-#play .nav-link {
-     color: #ffff00;
-}
-
-#instructions .nav-link {
-     color: #ffff00;
-}
-
-#contact .nav-link {
-     color: #ffff00;
-}
-
-body {
-    background-image: url("../images/comb.jpg");
 }
 
 footer {
