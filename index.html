@@ -1,20 +1,64 @@
 <!DOCTYPE html>
-<html lang="en">
 <!-- Boiler plate taken from Code Institute -->
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta http-equiv="X-UA-Compatible" content="ie=edge">
-<meta name="Description" content="Enter your description here"/>
+<html lang="en">
 
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css">
-<link rel="stylesheet" href="assets/css/style.css">
-<title>Title</title>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css" />
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+    <title>Pollination!</title>
 </head>
+
 <body>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <header>
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-light navbar-custom">
+
+            <!-- Logo -->
+            <a class="navbar-brand" href="index.html">
+                <img id="logo" src="assets/images/SunLogo.png" alt="Sun Logo">Pollination!</a>
+
+            <!-- Navbar button on smaller screens -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="menu-btn">menu</span>
+            </button>
+
+            <!-- Navigation list items -->
+            <div class="menu collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item" id="home">
+                        <a class="nav-link" href="index.html">Home!</a>
+                    </li>
+                    <li class="nav-item" id="play">
+                        <a class="nav-link" href="play.html">Play!</a>
+                    </li>
+                    <li class="nav-item" id="instructions">
+                        <a class="nav-link" href="instructions.html">Instructions!</a>
+                    </li>
+                    <li class="nav-item" id="contact">
+                        <a class="nav-link" href="contact.html">Contact!</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+
+    <footer id="footer">
+        <div class="container-fluid">
+            <!-- Copyright -->
+            <p class="copyright">© RSM 2020</p>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </body>
+
 </html>
