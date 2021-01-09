@@ -35,7 +35,7 @@ header {
     }
 
 .navbar-light .navbar-nav .nav-link {
-    color: yellow;
+    color: #ffff00;
 }
 
 .nav-item {
@@ -70,4 +70,20 @@ footer {
 #playnow {
     font-size: 2em;
     color: #008000;
+}
+
+form {
+    margin: 6em 4em 4em 4em;
+    background-color: #ffff0090;
+    padding: 4em;
+    border-radius: 25px;
+}
+
+#textarea {
+    margin-top: 1.5em;
+}
+
+.sendbutton {
+    text-align: center;
+    margin-top: 1.5em;
 }
