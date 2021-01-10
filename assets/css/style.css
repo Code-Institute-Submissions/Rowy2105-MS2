@@ -9,6 +9,8 @@ https://fonts.google.com/specimen/Roboto+Mono?query=roboto+m&sidebar.open=true&s
     position: relative;
 }
 
+
+
 body {
     height: 100%;
     overflow: auto;
@@ -93,4 +95,42 @@ form {
 #contact h1 {
     margin-bottom: 1em;
     text-align: center;
+}
+
+/**--------------- MOBILE DISPLAY  ---------------**/
+
+@media only screen and (max-width: 767px) {
+
+    body {
+        overflow-x: hidden;
+    }
+
+#pollination, 
+#instructions {
+    margin: 0.5em;
+    border-radius: 25px;
+}
+
+#pollination p,
+#instructions p  {
+    line-height: 1em;
+    word-spacing: 0;
+    padding: 0;
+    font-weight: 400;
+}
+
+.navbar {
+    margin: 0;
+}
+
+footer{
+    position: relative;
+}
+
+ #contact {
+    margin: 1em;
+    letter-spacing: 1.5px;
+   padding: 1em;
+  }
+
 }
