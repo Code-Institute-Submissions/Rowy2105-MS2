@@ -53,14 +53,16 @@ footer {
     margin-top: 0.5em;
 }
 
-#pollination {
+#pollination, 
+#instructions {
     background-color: #ffff0090;
     text-align: center;
     margin: 4em;
     border-radius: 25px;
 }
 
-#pollination p {
+#pollination p,
+#instructions p  {
     line-height: 2em;
     word-spacing: 0.5em;
     padding: 1em;
