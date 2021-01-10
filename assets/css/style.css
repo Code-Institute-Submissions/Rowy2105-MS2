@@ -87,3 +87,8 @@ form {
     text-align: center;
     margin-top: 1.5em;
 }
+
+#contact h1 {
+    margin-bottom: 1em;
+    text-align: center;
+}
