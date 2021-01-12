@@ -11,6 +11,11 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css" />
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
 
+     <!-- Email.js -->
+     <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js">
+</script>
+
     <title>Pollination!</title>
 </head>
 
@@ -51,31 +56,31 @@
     </header>
 
     <!-- Contact form -->
-    <div class="container" id="contact-form">
+    <div class="container">
         
-        <form onsubmit="return sendMail(this);" method="POST">
+        <form id="contactForm" onsubmit="return sendMail(this);">
             <h1>Contact Us</h1>
             <!-- User name container -->
             <div class="form-row">
                 <div class="col-md-6">
-                    <input id="fullname" name="name" type="text" class="form-control" placeholder="Name" required />
+                    <input name="name" id="name" type="text" class="form-control" placeholder="Name" required />
                 </div>
 
                 <!-- user email address container -->
                 <div class="col-md-6">
-                    <input name="email" id="emailaddress" type="email" class="form-control" placeholder="Email"
+                    <input name="email" id="email" type="email" class="form-control" placeholder="Email"
                         required />
                 </div>
             </div>
 
             <!-- User message container -->
-            <textarea class="form-control" name="feedback" id="gamefeedback" rows="6" placeholder="Type Message Here"
+            <textarea class="form-control" name="feedback" id="feedback" rows="6" placeholder="Type Message Here"
                 required></textarea>
 
 
             <!-- Send button -->
             <div class="sendbutton">
-                <button type="button" class="btn btn-light">Send</button>
+                <button type="submit" class="btn btn-light">Send</button>
             </div>
 
         </form>
@@ -93,16 +98,14 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.3/js/bootstrap.min.js"></script>
 
-    <script src="assets/js/email.js"></script>
-    <script type="text/javascript"
-        src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js">
+<script type="text/javascript">
+   (function(){
+      emailjs.init("user_vHdXIsunJHnbKjRZXHHFw");
+   })();
 </script>
-     <!-- Email.js -->
-    <script>
-        (function () {
-            emailjs.init("user_vHdXIsunJHnbKjRZXHHFw");
-        })();
-    </script>
+    <script src="assets/js/email.js"></script>
+
+
 
 </body>
 
