@@ -1,17 +1,27 @@
 
 function sendMail(contactForm) {
-    emailjs.send("gmail", "Pollination", {
-        "from_name": contactForm.name.value,
+var templateParams = {
+    "from_name": contactForm.name.value,
         "from_email": contactForm.email.value,
-        "from_feedback": contactForm.feedback.value
-    })
+        "feedback": contactForm.feedback.value,
+};
+
+   emailjs.send("gmail","Pollination", templateParams) 
+   
     .then(
         function(response) {
             console.log("SUCCESS", response);
         },
         function(error) {
             console.log("FAILED", error);
+         });
+
+    return false;
+        
         }
-    );
-    return false;  /**  To block from loading a new page **/
-    }
+    
+    
+
+    
+
+    
