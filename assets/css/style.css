@@ -97,6 +97,22 @@ form {
     text-align: center;
 }
 
+.green {
+    background-color: #008000;
+}
+
+.red {
+    background-color: #ff0000;
+}
+
+.yellow {
+    background-color: #ffff00;
+}
+
+.blue {
+    background-color: #0000ff;
+}
+
 /**--------------- MOBILE DISPLAY  ---------------**/
 
 @media only screen and (max-width: 767px) {
