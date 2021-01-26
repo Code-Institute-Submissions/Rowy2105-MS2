@@ -113,6 +113,20 @@ form {
     background-color: #0000ff;
 }
 
+.colours {
+    cursor: pointer;
+}
+
+.colours:hover {
+    box-shadow: inset 0 0 0 8px black;
+}
+
+
+.active {
+    color: white;
+}
+
+
 /**--------------- MOBILE DISPLAY  ---------------**/
 
 @media only screen and (max-width: 767px) {
